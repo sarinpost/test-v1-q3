@@ -1,6 +1,5 @@
 const Browser = require('zombie');
 const cheerio = require('cheerio');
-const cheerioTableparser = require('cheerio-tableparser');
 const url = 'https://codequiz.azurewebsites.net/';
 
 const name = process.argv[2]
